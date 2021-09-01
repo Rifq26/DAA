@@ -22,13 +22,14 @@ Step 2:
 
 Pseudocode
 ==========
-while (n != m) do
-n = 3
-n = 3 + n
-m = 4
-m = 4 + m
+Start
+ while (n != 3 && m != 4) do
+ n += 3
+ m += 4
 
-If n < m do
-n = n + 3
+ If n < m
+ n = n + 3
+ return m
+End
 
-return m
+https://www.tutorialspoint.com/learn_c_by_examples/program_to_find_lcm_in_c.htm

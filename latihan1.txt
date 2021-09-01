@@ -1,0 +1,34 @@
+Latihan
+
+Cari nilai KPK dari 3 dan 4
+Tentukan algoritma dan pseudocodenya
+
+
+KPK adalah kelipatan persekutuan terkecil
+Kelipatan 3 = 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, ....
+Kelipatan 4 = 4, 8, 12, 16, 20, 24, 28, 32, .....
+
+Kelipatan persekutuannya = 12, 24, 36, 48, ....
+--> kelipatan persekutuan terkecilnya = 12
+
+Jadi KPK 3 dan 4 = 12
+
+
+Algoritma
+=========
+n = 3, m = 4
+Step 1: Jika n != m, maka lanjut ke Step 2
+Step 2: 
+
+Pseudocode
+==========
+while (n != m) do
+n = 3
+n = 3 + n
+m = 4
+m = 4 + m
+
+If n < m do
+n = n + 3
+
+return m

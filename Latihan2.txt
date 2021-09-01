@@ -1,0 +1,60 @@
+Luas Segitiga
+=============
+
+Algoritma:
+
+
+Pseudocode:
+
+alas = 25, tinggi = 30, luas
+hasil = (alas * tinggi / 2)
+
+
+Luas Jajar Genjang
+============
+
+Algoritma:
+
+Step 1: Deklarasi variabel beserta nilainya alas, tinggi, luas
+Step 2: Melakukan perhitungan (alas * tinggi) yang ditampung dengan variabel luas
+Step 3: Cetak hasil perhitungan dengan variabel luas
+
+Pseudocode:
+
+int alas = 5, tinggi = 3, luas
+luas = alas * tinggi
+print(luas)
+
+
+Volume tabung
+============
+
+Algoritma:
+
+Step 1: Deklarasi variabel beserta nilainya r(jari-jari), tinggi, phi, dan volume
+Step 2: Melakukan perhitungan (phi*r*r*t) yang ditampung dengan variabel volume
+Step 3: Cetak hasil perhitungan dengan variabel volume
+
+Pseudocode:
+
+float r = 3, t = 5, phi = 3,14, volume
+
+volume = phi * r * r * t
+print(volume)
+
+
+Volume kerucut
+============
+
+Algoritma:
+Step 1: Deklarasi variabel beserta nilainya r(jari-jari), tinggi, phi, dan volume
+Step 2: mendeklarasi variabel r(jari-jari) dengan hasil perhitungan d/2
+Step 3: Melakukan perhitungan ((phi * r * r * t) / 3) yang ditampung dengan variabel volume
+Step 4: Cetak hasil perhitungan dengan variabel volume
+
+Pseudocode:
+
+float d = 5, t = 4, phi = 3,14, volume
+r = d/2
+volume = ((phi * r * r * t) / 3)
+print(volume)

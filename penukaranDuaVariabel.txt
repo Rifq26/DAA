@@ -1,0 +1,32 @@
+Penukaran dua variabel x dan y
+=============================
+
+define swab(x,y)
+buffer = x
+x = y
+y = buffer
+
+
+Latihan
+=======
+
+- Ada 2 buah: manggis dan pisang. Manggis di piring 1, pisang di piring 2, piring 3 kosong
+- Buatlah algoritma dan pseudocode untuk menukar manggis ke piring 2 dan pisang ke piring 1
+
+Algoritma :
+
+Step 1: deklarasi variabel a, b, dan buffer
+Step 2: simpan variabel a di dalam variabel buffer
+Step 3: isi variabel b disimpan divariabel a
+Step 4: lalu variabel 
+
+
+Pseudocode :
+
+a = manggis, b = pisang, buffer = none
+
+define swab(a,b)
+buffer = a
+a = b
+b = buffer
+

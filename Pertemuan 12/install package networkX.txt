@@ -1,0 +1,5 @@
+$ conda acticate
+
+(bash) $ conda install -c anaconda networkx
+(bash) $ pip install --user decorator==5.0.9
+(bash) $ conda update --all
